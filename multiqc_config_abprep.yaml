@@ -12,7 +12,7 @@ intro_text: |
     <li>V gene composition and VH-VL pairing</li>
   </ol>
 
-custom_logo: "/home/users/allstaff/wang.leo/antibody_projects/leon_phd/AbPrePQC/WEHI_logo.svg"
+custom_logo: "./abprep_plugin/WEHI_logo.svg"
 
 # Set module order
 module_order:
