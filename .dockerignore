@@ -1,4 +1,17 @@
+# Git
 .git
+.gitignore
 .github
 *.md
 *.txt
+*.svg
+__pycache__
+*.pyc
+*.pyo
+*.egg-info
+.eggs
+dist
+build
+.env
+.venv
+venv
