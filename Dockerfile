@@ -16,7 +16,7 @@ COPY . /app/
 # Install MultiQC + your plugin in one layer
 # This ensures compatibility between the two
 # RUN pip install --no-cache-dir multiqc . 
-RUN pip install --no-cache-dir multiqc==${MULTIQC_VERSION} ./abprep_plugin/
+RUN pip install --no-cache-dir multiqc==${MULTIQC_VERSION} .
 
 ENTRYPOINT [ "multiqc" ]
 CMD [ "." ]
