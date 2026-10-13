@@ -37,9 +37,10 @@ classifiers = [
 
 [tool.setuptools]
 packages = ["abprep_plugin"]
+package-data = { abprep_plugin = ["**/*"] }
 
 [project.urls]
-Repository = "https://github.com/AbPreP/abprep_plugin"
+Repository = "https://github.com/leonyqw/AbPreP-multiqc-plugin"
 
 [project.entry-points."multiqc.modules.v1"]
 matchbox = "abprep_plugin.modules.matchbox:MultiqcModule"
