@@ -35,9 +35,11 @@ classifiers = [
     #"Topic :: Scientific/Engineering :: Visualization",
 ]       
 
-[tool.setuptools]
-packages = ["abprep_plugin"]
-package-data = { abprep_plugin = ["**/*"] }
+[tool.setuptools.packages.find]
+where = ["."]
+# [tool.setuptools]
+# packages = ["abprep_plugin"]
+# package-data = { abprep_plugin = ["**/*"] }
 
 [project.urls]
 Repository = "https://github.com/leonyqw/AbPreP-multiqc-plugin"
