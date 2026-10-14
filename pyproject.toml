@@ -13,7 +13,8 @@ readme = "README.md"
 license = {file = "LICENSE"}
 keywords = ["bioinformatics", "antibody", "sequencing", "NGS", "next generation sequencing", "quality control", "long read sequencing", "nanobody", "oxford nanopore"]
 dependencies = [
-    "multiqc"
+    "multiqc",
+    "pandas"
 ]
 classifiers = [
     #   3 - Alpha
