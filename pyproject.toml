@@ -29,7 +29,6 @@ classifiers = [
     #"Operating System :: POSIX",
     "Operating System :: Unix",
     "Programming Language :: Python",
-    #"Programming Language :: JavaScript",
     #"Topic :: Scientific/Engineering",
     #"Topic :: Scientific/Engineering :: Bio-Informatics",
     #"Topic :: Scientific/Engineering :: Visualization",
