@@ -17,8 +17,6 @@ dependencies = [
     "pandas"
 ]
 classifiers = [
-    #   3 - Alpha
-    #   4 - Beta
     #   5 - Production/Stable
     "Development Status :: 4 - Beta",
     "Environment :: Console",
@@ -30,16 +28,11 @@ classifiers = [
     #"Operating System :: POSIX",
     "Operating System :: Unix",
     "Programming Language :: Python",
-    #"Topic :: Scientific/Engineering",
-    #"Topic :: Scientific/Engineering :: Bio-Informatics",
-    #"Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Scientific/Engineering :: Bioinformatics",
 ]       
 
 [tool.setuptools.packages.find]
 where = ["."]
-# [tool.setuptools]
-# packages = ["abprep_plugin"]
-# package-data = { abprep_plugin = ["**/*"] }
 
 [project.urls]
 Repository = "https://github.com/leonyqw/AbPreP-multiqc-plugin"
